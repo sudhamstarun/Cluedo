@@ -7,8 +7,8 @@ A simple Javascript based web app to play Cluedo with a bunch of my friends onli
 
 * [Prerequisites](#Prerequisites)
 * [Project Skeleton](#Project-Skeleton)
-* [Setup for development](#setup-for-development)
-* [Contribution](#contribution)
+* [Kickstart](#Kickstart)
+* [Credits](#Credits)
 
 <h4 id="Prerequisites"> Prerequisites </h4>
 
@@ -19,7 +19,7 @@ A simple Javascript based web app to play Cluedo with a bunch of my friends onli
 * Chai
 * Supertest
 
-#### To Kickstart ####
+#### Kickstart ####
 
   ```
 1. Run executable file from your project root directory

@@ -1,15 +1,7 @@
-# cluedo-brainyfools
+# Cluedo
 
-Do you want to play ?
+A simple Javascript based web app to play Cluedo with a bunch of my friends online.
 
-[Click here](http://cluedo-brainyfools.herokuapp.com/)
-
-
-# Contributing guidelines
-
-Welcome buddy, We are happy to see you here. We request you to read all guides before contributing.
-
-For styling guide [click here](../../wiki/Style)
 
 ## Table of Contents
 
@@ -20,8 +12,6 @@ For styling guide [click here](../../wiki/Style)
 
 <h4 id="Prerequisites"> Prerequisites </h4>
 
-> _You just need to be aware of using things like_
-
 * Node
 * ExpressJs
 * AJAX
@@ -29,61 +19,26 @@ For styling guide [click here](../../wiki/Style)
 * Chai
 * Supertest
 
-<h4 id="Project-Skeleton"> Project Skeleton </h4>
+#### To Kickstart ####
 
-```
-Cluedo/
-  ├─ logs/
-  |   └─ *.log
-  ├─ public/
-  │   ├─ css/
-  │   ├─ images/
-  │   ├─ js/
-  │   ├─ svg/
-  │   ├─ *.html
-  ├─ src/
-  │   ├─ utils/
-  │   ├─ routes/
-  │   └─ models/
-  ├─ templates/
-  ├─ test/
-  │   ├─ handler/
-  │   ├─ integration/
-  │   └─ models/
-  │   ├─ utils/
-  |
-  ├─ app.js
-  ├─ server.js
-  ├─ .gitignore
-  ├─ .eslintrc
-  ├─ .npmrc
-  ├─ .eslintignore
-  ├─ README.md
-  ├─ .editorconfig
-  └─ package.json
-```
-#### Setup for development ####
- To contribute for this project you need to do the following things.
-1. clone the repository
   ```
-  $ git clone https://github.com/step-tw/cluedo-brainyfools.git
-  ```
-2. Run executable file from your project root directory
+1. Run executable file from your project root directory
 
   ```bash
   $ sh bin/setup.sh
   ```
-3. Run tools file from your project root directory to install testing tools globally
+2. Run tools file from your project root directory to install testing tools globally
   ```bash
   $ sh bin/tools.sh
   ```
-4. To start the application run npm start
+3. To start the application run npm start
   ```
   npm start
   ```
 
-#### Contribution ####
+This should only be for development purpose. Original app should be on Heroku or some other hosting site. Will figure this out later.
 
-After preparing development environment, select an issue that you want to work on and assign it to yourself.
 
-As a pair follow ` TDD ` write tests to cover every line of code you added.
+#### Credits ####
+
+This repo is a fork of the original author's existing repostiory (link). I am simply updating the UI a little and also the board used in the game to be more reflective of the actual board used to mimic the the real life effect. All credit for the effort involved in the logic of the game goes to the original author. 

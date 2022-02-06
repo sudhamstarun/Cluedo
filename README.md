@@ -21,9 +21,7 @@ A simple Javascript based web app to play Cluedo with a bunch of my friends onli
 
 #### Kickstart ####
 
-  ```
 1. Run executable file from your project root directory
-
   ```bash
   $ sh bin/setup.sh
   ```
